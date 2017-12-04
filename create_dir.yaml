@@ -1,4 +1,4 @@
-- hosts: MY_TEST_ANISBLE
+- hosts: 172.27.247.109
   gather_facts: yes
   tasks:
   - name: create taptica directory in opt
