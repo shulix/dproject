@@ -1,0 +1,13 @@
+- hosts: MY_TEST_ANISBLE
+  gather_facts: yes
+  tasks:
+  - name: restart the sensu service   
+    service:
+      name: sensu-client
+      state: stoped
+    become: true     
+  
+    service:
+      name: sensu-client
+    state: started
+    become: true

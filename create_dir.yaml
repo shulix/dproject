@@ -1,0 +1,6 @@
+- hosts: MY_TEST_ANISBLE
+  gather_facts: yes
+  tasks:
+  - name: create taptica directory in opt
+    file: state=directory recurse=yes path=/opt/taptica
+    become: true

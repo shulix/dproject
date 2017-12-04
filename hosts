@@ -1,0 +1,7 @@
+[MY_TEST_ANISBLE]
+172.27.247.109
+
+[MY_TEST_ANISBLE:vars]
+ansible_user=devops
+ansible_password=Taptican!!23
+ansible_connection=ssh
