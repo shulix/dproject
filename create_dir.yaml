@@ -1,4 +1,4 @@
-- hosts: 172.27.247.109
+- hosts: *.nyj.taptica.info
   gather_facts: yes
   tasks:
   - name: create taptica directory in opt
