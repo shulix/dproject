@@ -1,4 +1,4 @@
-- hosts: devops-infra.nyj.taptica.info
+- hosts: MY_TEST_ANISBLE
   gather_facts: yes
   tasks:
   - name: create taptica directory in opt
